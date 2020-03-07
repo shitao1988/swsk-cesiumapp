@@ -1,0 +1,97 @@
+.list-sort-service-wrapper {
+    position: relative;
+    background: #e6e6e6;
+    overflow: hidden;
+    height: 385px;
+  }
+  
+  .list-sort-service {
+    margin: 10px auto;
+    max-width: 350px;
+    width: 90%;
+    cursor: url("http://gtms02.alicdn.com/tps/i2/T1_PMSFLBaXXcu5FDa-20-20.png") 10
+        10,
+      pointer !important;
+    position: relative;
+    height: 305px;
+  }
+  .list-sort-service > div {
+    overflow: hidden;
+  }
+  
+  .list-sort-service-list {
+    background: #fff;
+    border-radius: 6px;
+    margin: 5px auto;
+    padding: 10px;
+    height: 70px;
+    transition: box-shadow 0.5s, transform 0.5s;
+  }
+  
+  .list-sort-service-list.list-drag-selected {
+    box-shadow: 0 8px 20px #e6e6e6;
+    transform: scale(1.1) !important;
+  }
+  
+  .list-sort-service-icon {
+    width: 10%;
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+    vertical-align: top;
+  }
+  .list-sort-service-text {
+    width: 50%;
+    display: inline-block;
+  }
+  
+  .list-sort-service-text h1 {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  
+  .list-sort-service-text p {
+    font-size: 12px;
+  }
+  
+  .list-sort-service-silder {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+  }
+  
+  @media screen and (max-width: 320px) {
+    .list-sort-service-text h1 {
+      font-size: 14px;
+      line-height: 28px;
+    }
+  }
+
+  .addservice_modal{
+    .ant-modal-body{
+      padding: 0px 20px;
+      .ant-row{
+        margin-bottom: 10px;
+      }
+      .ant-tabs-content{
+        margin-left: 0px !important
+      }
+
+    }
+  }
+
+
+  .fileinput-button {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    input{
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      -ms-filter: 'alpha(opacity=0)';
+  }
+}

@@ -1,0 +1,90 @@
+.arealocation_card {
+    position: absolute;
+    z-index: 2000;
+    margin: 12px;
+    left: 400px;
+    height: 48px;
+}
+
+.arealocation_card .ant-dropdown-link{
+    font-size: 18px;
+    line-height: 40px;
+}
+.arealocation_card .anticon-down{
+    font-size: 20px !important;
+}
+
+
+.arealocation_card>div{
+    padding: 4px 6px;
+}
+
+.arealocation_card .ant-select-selection{
+    border: 0px;
+}
+
+.arealocation_card .ant-select-selection:focus{
+    border: 0px;
+}
+
+.arealist{
+    width: 390px;
+    margin-top: 10px;
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.arealist .divide {
+    height: 1px;
+    margin: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.arealist a{
+    margin: 0px 10px;
+    white-space: nowrap;
+    display: inline-block;
+    font-size: 14px;
+   
+    text-decoration: none;
+    padding: 0 2px;
+   width: auto !important;
+}
+
+
+a.street{
+    color: #676767 ;
+}
+.arealist .street{
+    width: 76px !important;
+}
+
+.arealist a:hover{
+    background-color: #eee;
+    color: #1890ff;
+}
+
+.arealist .ant-row-flex{
+    line-height: 30px;
+    padding-left: 14px;
+}
+
+.arealist hr{
+    width: 90%;
+    opacity: 0.6;
+}
+
+
+@media screen and (max-width: 1366px) {
+    .arealist a {
+        font-size: 12px;
+        
+    }
+    .arealist{
+        margin-top: 4px;
+    }
+    .arealist .ant-row-flex{
+        line-height: 24px;
+    }
+  }

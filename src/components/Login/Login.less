@@ -1,0 +1,178 @@
+// html,
+// body {
+//     padding: 0;
+//     margin: 0;
+//     width: 100%;
+//     height: 100%;
+//     font-family: "微软雅黑";
+//     background-size: cover;
+// }
+
+.login-wrapper {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: url(../../themes/style/images/login-bg.png) no-repeat center;
+}
+
+.system-title {
+    position: fixed;
+    top: 30px;
+    left: 60px;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 5px;
+    color: #868585;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    user-select: none;
+}
+
+.login-logo {
+    position: relative;
+    top: 10%;
+    left: 10%;
+    height: 125px;
+    width: 623px;
+    // background: url(http://61.177.139.228:28083/cas/images/logo.png) no-repeat;
+}
+
+.login-bottom {
+    position: absolute;
+    bottom: 5px;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.login-right {
+    width: 400px;
+    height: auto;
+    border: 1px solid #ccc;
+    position: absolute;
+    /* top: 190px; */
+    /* right: 230px; */
+    top: 15%;
+    right: calc(~"50% - 200px");
+    border-radius: 4px !important;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 999;
+
+    .ant-card-body {
+        padding: 24px 46px;
+
+        .ant-tabs-bar {
+            display: none;
+        }
+
+        .login-form-button {
+            width: 100%
+        }
+
+        .ant-btn-primary {
+            background-color: #00C5E0 !important;
+            border-color: #00C5E0 !important;
+        }
+
+        .ant-btn-primary:active,
+        .ant-btn-primary.active {
+            background-color: #00C5E0 !important;
+            border-color: #00C5E0 !important;
+        }
+
+        .ant-btn-primary:hover,
+        .ant-btn-primary:focus {
+            background-color: #00C5E0 !important;
+            border-color: #00C5E0 !important;
+        }
+
+        .user-link {
+            float: right;
+        }
+
+        .login-input {
+            .ant-input-prefix i {
+                color: #00C5E0;
+                font-size: 1.5em;
+            }
+
+            .ant-input:not(:first-child) {
+                padding-left: 46px;
+            }
+
+        }
+    }
+}
+
+.require span.ant-input-prefix:after {
+    display: inline-block;
+    content: "*";
+    font-family: SimSun;
+    font-size: 14px;
+    color: #f5222d;
+}
+
+.login-right strong {
+    width: 100%;
+    height: 50px;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    font-size: 1.5em;
+    color: #6699ff;
+}
+
+@media screen and (max-width: 1333px) {
+    .login-right {
+        top: calc(10% + 130px) !important;
+        right: calc(50% - 200px) !important;
+    }
+
+    .login-logo {
+        left: calc(50% - 312px) !important;
+    }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1920px) {
+    .login-right {
+        top: 25% !important;
+        right: calc(~"50% - 200px");
+    }
+
+    .login-logo {
+        top: 15% !important;
+        left: 20% !important;
+    }
+}
+
+.form-con {
+    .login-title {
+        text-align: center;
+        font-size: 28px;
+        color: #000000;
+        margin-bottom: 10px;
+    }
+
+    .login-divide {
+        border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+        height: 2px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .login-divide-light {
+        border-top: 2px solid #00C5E0;
+        height: 1px;
+        width: 150px;
+        text-align: center;
+        margin-left: calc(~"50% - 75px");
+    }
+}

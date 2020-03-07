@@ -1,0 +1,46 @@
+{
+  "code": 1,
+  "msg": "查询成功",
+  "result": [
+    {
+      "serviceType": "wms",
+      "dic_code": "102003",
+      "classify_code": "001002",
+      "atlas": "",
+      "name": "JMD_CeSuo_A",
+      "typeName": "网络地图服务",
+      "alias": "厕所",
+      "id": 8,
+      "proxy_url": "/gateway/wms/JMD_CeSuo_A",
+      "srid": "3857"
+    },
+    {
+      "serviceType": "map",
+      "dic_code": "102002,002012",
+      "classify_code": "001002",
+      "filepath": "/dsc/serviceCenter",
+      "atlas": "rugao",
+      "file_name": "052e3c6e-f5ff-4ee6-9526-9281a9734284.png",
+      "name": "主干道",
+      "typeName": "动态地图服务",
+      "alias": "主干道",
+      "layers":1,
+      "id": 11,
+      "proxy_url": "http://61.177.139.228:9000/gateway/wuxi_chenguan/road_1/MapServer",
+      "srid": "4326"
+    },
+    {
+      "serviceType": "map",
+      "dic_code": "102003",
+      "classify_code": "001001",
+      "atlas": "",
+      "name": "管理单元",
+      "typeName": "动态地图服务",
+      "alias": "A类管理单元",
+      "layers":4,
+      "id": 25,
+      "proxy_url": "http://61.177.139.228:9000/gateway/wuxi_chenguan/grid_road_bate/MapServer",
+      "srid": "4326"
+    }
+  ]
+}

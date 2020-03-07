@@ -1,0 +1,43 @@
+{
+  "code": 1,
+  "msg": "查询成功",
+  "result": [
+
+    {
+      "id": 98,
+      "pid": 0,
+      "name": "来源目录",
+      "sort": 1,
+      "code": "102",
+      "create_date": "2019-11-20 10:59:40",
+      "modify_date": "2019-11-20 10:59:40",
+      "type": 2,
+      "classify": 2,
+      "userid": 0
+    },
+    {
+      "id": 105,
+      "pid": 98,
+      "name": "道路",
+      "sort": 2,
+      "code": "102002",
+      "create_date": "2019-12-08 15:33:45",
+      "modify_date": "2019-12-08 15:34:03",
+      "type": 2,
+      "classify": 2,
+      "userid": 2
+    },
+    {
+      "id": 112,
+      "pid": 98,
+      "name": "兴趣点",
+      "sort": 3,
+      "code": "102003",
+      "create_date": "2019-12-08 15:36:02",
+      "modify_date": null,
+      "type": 2,
+      "classify": 2,
+      "userid": 3
+    }
+  ]
+}

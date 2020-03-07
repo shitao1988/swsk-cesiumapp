@@ -1,0 +1,86 @@
+{
+  "id": "1477105",
+  "name": "云平台1025",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2805243",
+      "name": "地图",
+      "font_class": "map",
+      "unicode": "e72a",
+      "unicode_decimal": 59178
+    },
+    {
+      "icon_id": "4885669",
+      "name": "数据管理",
+      "font_class": "shujuguanli",
+      "unicode": "e99d",
+      "unicode_decimal": 59805
+    },
+    {
+      "icon_id": "5526562",
+      "name": "视频监控",
+      "font_class": "shipinjiankong",
+      "unicode": "e6b3",
+      "unicode_decimal": 59059
+    },
+    {
+      "icon_id": "6578087",
+      "name": "全景",
+      "font_class": "quanjing",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "6788781",
+      "name": "三维地图",
+      "font_class": "sanweiditu",
+      "unicode": "e6c2",
+      "unicode_decimal": 59074
+    },
+    {
+      "icon_id": "6826543",
+      "name": "物联网",
+      "font_class": "wulianwang",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "8999728",
+      "name": "社会经济数据",
+      "font_class": "shehuijingjishuju",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "9413466",
+      "name": "摄影",
+      "font_class": "icon-3919",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "9743154",
+      "name": "地理数据",
+      "font_class": "dilishuju",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "10711354",
+      "name": "数据",
+      "font_class": "shuju",
+      "unicode": "e6ad",
+      "unicode_decimal": 59053
+    },
+    {
+      "icon_id": "11014003",
+      "name": "激光点云",
+      "font_class": "jiguangdianyun",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    }
+  ]
+}

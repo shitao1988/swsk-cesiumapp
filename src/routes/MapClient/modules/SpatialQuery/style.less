@@ -1,0 +1,51 @@
+.spatial_toolbar_card {
+  width: 350px;
+  position: absolute;
+  right: 100px;
+  top: 80px;
+  z-index: 1;
+  .ant-card-body {
+    padding: 10px 15px;
+  }
+  .ant-radio-button-wrapper:first-child,
+  .ant-radio-button-wrapper:last-child {
+    border-radius: 0;
+  }
+
+  .ant-divider {
+    margin: 6px 0px;
+    font-weight: 600;
+  }
+  .ant-radio-button-wrapper {
+    margin: 4px;
+    border-radius: 4px !important;
+  }
+
+  .buffercontain {
+    margin: 20px 0px;
+    font-size: 18px;
+  }
+  .ant-checkbox-wrapper {
+    font-size: 18px;
+  }
+  .toolbar {
+    .ant-btn {
+      width: 100px;
+    }
+  }
+}
+
+.spatial_result_card {
+  width: 100%;
+  float: left;
+  box-shadow: none !important;
+  .ant-collapse-content-box {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  .ant-card-body {
+    height: calc(100vh - 480px);
+    overflow: auto;
+    padding: 0px;
+  }
+}

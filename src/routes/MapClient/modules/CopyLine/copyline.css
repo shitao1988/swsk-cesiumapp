@@ -1,0 +1,47 @@
+.copyline_bottom{
+    position: absolute;
+    z-index: 2000;
+    bottom: 0px;
+    background-color: rgba(255, 255, 255, 0.72);
+    padding: 2px 10px;
+    right: 0px;
+    border-top-left-radius: 4px;
+    /*background-color: #ffffffdb;*/
+}
+.ant-modal-mask,.ant-modal-wrap,.ant-message{
+    z-index: 2000;
+}
+
+.contact-modal .ant-modal-header{
+	padding:10px 24px;
+	background:#1890ff;
+}
+.contact-modal .ant-modal-close-x{
+	height:44px;
+	line-height:44px;
+}
+.contact-modal .ant-modal-header .ant-modal-title,.contact-modal .ant-modal-close{
+	color:#fff;
+}
+.contact-modal .infoText>div{
+    line-height:2;
+    font-size:16px;
+}
+.infoText-item .iconfont{
+    display:inline-block;
+    width:32px;
+    height:32px;
+    margin-right:5px;
+    text-align:center;
+    vertical-align:baseline;
+    /* font-size:18px; */
+}
+.infoText-item font{
+    color:#333;
+} 
+
+@media screen and (max-width: 1366px) {
+    .copyline_bottom {
+        font-size: 11px;
+    }
+  }

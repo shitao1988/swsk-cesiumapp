@@ -1,0 +1,81 @@
+.querybuilder {
+  width: fit-content;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.08);
+  
+  .ant-col {
+    display: inline-table;
+    min-width: 60px;
+    width: auto;
+    .ant-divider-horizontal.ant-divider-with-text-left::before {
+      top: 50%;
+      width: 5%;
+      border-left: 1px solid #eee;
+    }
+
+    .ant-select-selection {
+      border: 0px;
+      font-weight: bold;
+      box-shadow: none;
+      .ant-select-arrow {
+        color: #2e353b;
+      }
+    }
+    .ant-divider {
+      margin: 0px;
+    }
+
+    .item {
+      height: 50px;
+      padding: 5px;
+      border: 1px solid #eee;
+      border-top: 0px;
+      border-right: 0px;
+      .ant-tag{
+        font-size: 14px;
+        padding: 4px;
+      }
+      .ant-btn-icon-only {
+        line-height: 20px;
+      }
+      .itemlabel {
+        margin: 0 10px;
+      }
+    }
+    .otherbtn {
+      height: 62px;
+      width: 60px;
+      position: absolute;
+      font-size: 30px;
+      top: -6px;
+    }
+  }
+}
+
+.querybuilder_popover{
+  .ant-popover-title{
+    line-height: 28px;
+    font-size: 16px;
+    height: 40px;
+    .ant-select{
+      float: right;
+    }
+  }
+  .ant-popover-inner-content{
+    padding: 10px 0px;
+    min-height: 120px;
+    .ant-btn{
+      float: right;
+      margin: 10px 20px;
+    }
+  }
+    .cal_listitem,.field_listitem{
+      max-height: 200px;
+    overflow-y: auto;
+        .ant-list-item{
+          padding: 2px 16px;
+        }
+        .ant-list-item:hover{
+          background-color: #eee;
+        }
+    }
+}

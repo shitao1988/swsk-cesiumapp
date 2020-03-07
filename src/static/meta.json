@@ -1,0 +1,221 @@
+{
+    "currentVersion": 10.3,
+    "id": 8,
+    "name": "疏导点成果",
+    "type": "Feature Layer",
+    "description": "",
+    "geometryType": "esriGeometryPolygon",
+    "copyrightText": "",
+    "parentLayer": null,
+    "subLayers": [],
+    "minScale": 0,
+    "maxScale": 0,
+    "drawingInfo": {
+     "renderer": {
+      "type": "simple",
+      "symbol": {
+       "type": "esriSFS",
+       "style": "esriSFSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "outline": {
+        "type": "esriSLS",
+        "style": "esriSLSSolid",
+        "color": [
+         137,
+         68,
+         101,
+         255
+        ],
+        "width": 1.5
+       }
+      },
+      "label": "",
+      "description": ""
+     },
+     "transparency": 0,
+     "labelingInfo": null
+    },
+    "defaultVisibility": false,
+    "extent": {
+     "xmin": 120.0866290780001,
+     "ymin": 31.420650183000078,
+     "xmax": 120.525601832,
+     "ymax": 31.728082697000048,
+     "spatialReference": {
+      "wkid": 4490,
+      "latestWkid": 4490
+     }
+    },
+    "hasAttachments": false,
+    "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+    "displayField": "点位名称位置",
+    "typeIdField": null,
+    "fields": [
+     {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "domain": null
+     },
+     {
+      "name": "SHAPE",
+      "type": "esriFieldTypeGeometry",
+      "alias": "SHAPE",
+      "domain": null
+     },
+     {
+      "name": "编号",
+      "type": "esriFieldTypeString",
+      "alias": "编号",
+      "length": 10,
+      "domain": null
+     },
+     {
+      "name": "所属辖区",
+      "type": "esriFieldTypeString",
+      "alias": "所属辖区",
+      "length": 50,
+      "domain": null
+     },
+     {
+      "name": "辖区序号",
+      "type": "esriFieldTypeString",
+      "alias": "辖区序号",
+      "length": 4,
+      "domain": null
+     },
+     {
+      "name": "所属街镇",
+      "type": "esriFieldTypeString",
+      "alias": "所属街镇",
+      "length": 20,
+      "domain": null
+     },
+     {
+      "name": "所在网格",
+      "type": "esriFieldTypeString",
+      "alias": "所在网格",
+      "length": 50,
+      "domain": null
+     },
+     {
+      "name": "点位名称位置",
+      "type": "esriFieldTypeString",
+      "alias": "点位名称位置",
+      "length": 255,
+      "domain": null
+     },
+     {
+      "name": "设摊数量",
+      "type": "esriFieldTypeString",
+      "alias": "设摊数量",
+      "length": 10,
+      "domain": null
+     },
+     {
+      "name": "管理责任人和联系方式",
+      "type": "esriFieldTypeString",
+      "alias": "管理责任人和联系方式",
+      "length": 50,
+      "domain": null
+     },
+     {
+      "name": "经营范围",
+      "type": "esriFieldTypeString",
+      "alias": "经营范围",
+      "length": 255,
+      "domain": null
+     },
+     {
+      "name": "类型",
+      "type": "esriFieldTypeString",
+      "alias": "类型",
+      "length": 20,
+      "domain": null
+     },
+     {
+      "name": "经营时间",
+      "type": "esriFieldTypeString",
+      "alias": "经营时间",
+      "length": 50,
+      "domain": null
+     },
+     {
+      "name": "规范管理现场图片",
+      "type": "esriFieldTypeString",
+      "alias": "规范管理现场图片",
+      "length": 255,
+      "domain": null
+     },
+     {
+      "name": "备注",
+      "type": "esriFieldTypeString",
+      "alias": "备注",
+      "length": 50,
+      "domain": null
+     },
+     {
+      "name": "原编号",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "原编号",
+      "domain": null
+     },
+     {
+      "name": "SHAPE_Length",
+      "type": "esriFieldTypeDouble",
+      "alias": "SHAPE_Length",
+      "domain": null
+     },
+     {
+      "name": "SHAPE_Area",
+      "type": "esriFieldTypeDouble",
+      "alias": "SHAPE_Area",
+      "domain": null
+     },
+     {
+      "name": "其他要求",
+      "type": "esriFieldTypeString",
+      "alias": "其他要求",
+      "length": 50,
+      "domain": null
+     },
+     {
+      "name": "单元编码",
+      "type": "esriFieldTypeString",
+      "alias": "单元编码",
+      "length": 50,
+      "domain": null
+     },
+     {
+      "name": "管理分类编码",
+      "type": "esriFieldTypeString",
+      "alias": "管理分类编码",
+      "length": 50,
+      "domain": null
+     }
+    ],
+    "relationships": [],
+    "canModifyLayer": false,
+    "canScaleSymbols": false,
+    "hasLabels": false,
+    "capabilities": "Map,Query,Data",
+    "maxRecordCount": 1000,
+    "supportsStatistics": true,
+    "supportsAdvancedQueries": true,
+    "supportedQueryFormats": "JSON, AMF",
+    "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+    "useStandardizedQueries": true,
+    "advancedQueryCapabilities": {
+     "useStandardizedQueries": true,
+     "supportsStatistics": true,
+     "supportsOrderBy": true,
+     "supportsDistinct": true,
+     "supportsPagination": false,
+     "supportsTrueCurve": true
+    }
+   }
